@@ -13,7 +13,7 @@ const App = () => {
 
   const calculateSum = () => {
     const sum = values.reduce((total, value) => total + Number(value || 0), 0);
-    if (sum <= 60) {
+    if (sum <= 50) {
       setResult("FICA EM CASA LISO");
     } else {
       setResult("UP UP TAIGA");
