@@ -16,13 +16,13 @@ const App = () => {
     if (sum <= 60) {
       setResult("FICA EM CASA LISO");
     } else {
-      setResult("UP UP ROSHZIN");
+      setResult("UP UP TAIGA");
     }
   };
 
   return (
     <div className="container">
-      <h1>CALCULADORA DE LULACOINS PRO ROGER</h1>
+      <h1>CALCULADORA DE LULACOINS PRA TAIGA DE CRIA</h1>
       <p>IINSIRA OS LULACOINS QUE TODES TEM:</p>
       <div className="input-container">
         {values.map((value, index) => (
