@@ -1,0 +1,86 @@
+/* Body Styling */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #2d89ff, #6c63ff);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background: #ffffff10;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Input Styling */
+.input {
+  width: 60px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input:focus {
+  outline: none;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Button */
+.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+}
+
+/* Result */
+.result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffe135;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
