@@ -14,15 +14,15 @@ const App = () => {
   const calculateSum = () => {
     const sum = values.reduce((total, value) => total + Number(value || 0), 0);
     if (sum <= 50) {
-      setResult("FICA EM CASA LISO");
+      setResult("FICA EM CASA, LISO");
     } else {
-      setResult("UP UP TAIGA");
+      setResult("UP UP VAMO PRO ROLÊ");
     }
   };
 
   return (
     <div className="container">
-      <h1>CALCULADORA DE LULACOINS PRA TAIGA DE CRIA</h1>
+      <h1>CALCULADORA DE DINHEIROS PRO ROLE DE CRIA</h1>
       <p>IINSIRA OS LULACOINS QUE TODES TEM:</p>
       <div className="input-container">
         {values.map((value, index) => (
